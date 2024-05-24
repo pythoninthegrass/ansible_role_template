@@ -1,0 +1,11 @@
+# ETC
+.env*
+*.bak
+**/*.sqlite
+**/facts/*
+ansible.cfg
+scratch.*
+
+# INCLUDE
+!**/.gitkeep
+!**/*.example

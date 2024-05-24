@@ -1,0 +1,8 @@
+# code: language=ansible
+
+---
+- name: Call pre-task role
+  hosts: all
+  become: false
+  roles:
+    - pre-tasks

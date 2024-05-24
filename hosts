@@ -1,0 +1,13 @@
+[all]
+localhost               ansible_connection=local
+
+[dev]
+192.168.105.7           ansible_user=lima
+
+[all:vars]
+ansible_user=lance.stephens
+ansible_become_method=sudo
+ansible_become_user=root
+ansible_python_interpreter=/usr/bin/python3
+
+# [dev:vars]
