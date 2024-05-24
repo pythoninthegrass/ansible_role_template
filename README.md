@@ -29,10 +29,10 @@ Example Playbook
     ```yaml
     ---
     - name: Call pre-tasks role
-    hosts: all
-    become: false
-    roles:
-        - pre-tasks
+      hosts: all
+      become: false
+      roles:
+          - pre-tasks
     ```
 
 * Usage
